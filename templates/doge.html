@@ -1,0 +1,10 @@
+<tbody>
+      {% for coin in coins %}
+      <tr id="{{ coin.rowid }}">
+        <td class="row-data">{{ coin.Date }}</a></td>
+        <td class="row-data">{{coin.High}}</td>
+        <td class="row-data">{{coin.Low}}</td>
+        <td class="row-data">{{coin.Close}}</td>
+        </tr>
+      {% endfor %}
+</tbody>
