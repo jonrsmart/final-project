@@ -42,11 +42,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     """List all available api routes."""
-    return (
-        f"Available Routes:<br/>"
-        f"/bitcoin<br/>"
-        f"/ethereum<br/>"
-        f"/dogecoin")
+    return render_template("index.html")
 
 @app.route("/bitcoin")
 def bitcoin():
