@@ -55,7 +55,7 @@ def ethereum():
     updateETH()
     return render_template("ethereum.html")
 
-@app.route("/dogecoin")
+@app.route("/doge")
 def dogecoin():
     updateDOGE()
     return render_template("doge.html")
