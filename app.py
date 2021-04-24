@@ -51,12 +51,13 @@ def home():
 @app.route("/bitcoin")
 def bitcoin():
     updateBTC()
-    return render_template("btc.html")
+    return render_template("bitcoin.html")
 
 
-# @app.route("/ethereum")
-# def ethereum():
-#     return render_template("")
+@app.route("/ethereum")
+def ethereum():
+    updateETH()
+    return render_template("ethereum.html")
 
 @app.route("/dogecoin")
 def dogecoin():
