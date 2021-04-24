@@ -17,171 +17,14 @@ Jinja2 == 2.11.2
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\app.py: 4
 SQLAlchemy == 1.3.18
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-alcali == 3003.1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 7,8,10
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\apidata.py: 8
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 7,8,10
 alpha_vantage == 2.2.0
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-app-basementass == 0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-app-map == 0.2
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-app-music == 0.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-app-voice == 0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-cernent == 0.1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-cloudlift == 1.4.7
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-client == 0.11.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-client-c3 == 0.1.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-client-pcf-c3 == 0.0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-client3 == 2.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-client3-pcf == 0.0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-config-jderobot == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-data-service == 0.0.35
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-dbackups == 0.5.4
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-collecstatic-daemon == 0.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-lessons == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-liked == 1.0.2
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-material-widgets == 1.0.0b3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-server-config == 0.1.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-django-zoneke-contrib == 0.05
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-drf-pyotp == 0.5.6
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-ebay-api-zs == 0.24
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-ebay-oauth-zs == 0.12
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-eclinic == 1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-etsy-api-zs == 0.4
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-fc-config == 0.1.5
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-ficusframework == 3.0.10
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-fynd-django-alohomora == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-fynd-tornado-alohomora == 0.5.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\app.py: 5
-geojson == 2.5.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-go-ml-core == 0.1.3.dev3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-graph-articulations == 0.0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-huscy-appointments == 1.1.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-huscy-rooms == 0.1.0a3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-ibm-db-py3 == 2.0.5
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-ieo == 1.1.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-indy-anoncreds == 1.0.11
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-indy-anoncreds-dev == 1.0.46
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-kimai-cli == 0.2.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-kubeasy == 0.7
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-latex2markdown-bbsmp == 0.0.4.4
 
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 1,11
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\apidata.py: 1
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 1,11
 matplotlib == 3.2.2
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-mementoembed == 0.2021.2.22.22825
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-meteortears == 1.0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-mfl == 2.0a1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-mih-config == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-mpesa-api == 0.2.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-myidea == 0.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-nailpack-flask == 0.1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-nails == 0.2.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-netkeiba == 0.0.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-netranker == 0.0.3
 
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\Sequential_Model-checkpoint.ipynb: 5
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 3
@@ -190,18 +33,6 @@ netranker == 0.0.3
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 3
 numpy == 1.18.5
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-octobot == 0.3.9
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-olapy == 0.8.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-openvpn2dns == 1.1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-opsletsec2 == 0.3.30
-
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\Sequential_Model-checkpoint.ipynb: 1
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 2
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\Sequential_Model.ipynb: 1
@@ -209,83 +40,20 @@ opsletsec2 == 0.3.30
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 2
 pandas == 1.0.5
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-pubopinion == 0.1.0a3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-py-app-config == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-py-config == 1.0.2
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-pyblueprint == 0.0.2
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-pyclassifiers == 0.0.6
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-pyhystrix == 1.0.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-python-ucp-cli == 0.1.9
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-rasa-hydra == 2.6.24
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-reasy == 0.0.9
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-redsolutioncms-django-server-config == 0.1.4
 
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 4
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\apidata.py: 4
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 4
 requests == 2.24.0
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-sa-tools-core == 0.4.1
 
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\Sequential_Model-checkpoint.ipynb: 18,20
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\Sequential_Model.ipynb: 18,20
 scikit_learn == 0.23.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-sciolyid == 1.1.2
 
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 6
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\apidata.py: 6
 # C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\crypto-data.ipynb: 6
 scipy == 1.5.0
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-scrapyd-dash == 0.1.2
 
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-serapeum-backup == 1.0.7
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-sotoxic == 1.0
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-stripe-webhook == 0.1.8
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-stt-watson == 1.0.3
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\Sequential_Model-checkpoint.ipynb: 19,44,45
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\Sequential_Model.ipynb: 19,44,45
-tensorflow == 2.4.1
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-trellogd == 0.2.4
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-typeidea == 0.0.2
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-typeidea-czz == 0.15
-
-# C:\Users\jonrs\Desktop\Bootcamp\50-projects\final-project\.ipynb_checkpoints\crypto-data-checkpoint.ipynb: 9
-wtfix == 0.16.2
