@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/style/cschart.css">
 <style>
-.body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-btc,.fa-btc {font-size:200px}
 </style>
@@ -41,20 +42,26 @@
 </header>
 
 <!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>About</h1>
-      <h5 class="w3-padding-32">Using machine learning, we have developed two different models that can determine if a certain crypto currency is a good investment. The first model will look at historical price data to decide wether a currency falls in to one of four buckets. The buckets are "Strong Buy", "Buy", "Hold" and "Weak Sell". The second model has the ability to predict future crytpo currency prices, ten days into the future.</h5>
-
-      <p class="w3-text-grey">Our models uses a few different metrics to be able to determine if a currency is a good investment. Our first model uses historical open and close prices, collected on a daily basis and the percentage change within the day..</p>
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-btc w3-padding-64 w3-text-red"></i>
-    </div>
-  </div>
-</div>
+<div id="demobox">
+    <div id="csbox">
+        <div id="option">
+            <input id="oneM" name="1M" type="button" value="1M"/>
+            <input id="threeM" name="3M" type="button" value="3M" />
+            <input id="sixM" name="6M" type="button" value="6M" />
+            <input id="oneY" name="1Y" type="button" value="1Y" />
+            <input id="twoY" name="2Y" type="button" value="2Y" />
+            <input id="fourY" name="4Y" type="button" value="4Y" />
+        </div>
+        <div id="infobar">
+            <div id="infodate" class="infohead"></div>
+            <div id="infoopen" class="infobox"></div>
+            <div id="infohigh" class="infobox"></div>
+            <div id="infolow" class="infobox"></div>
+            <div id="infoclose" class="infobox"></div>
+        </div>
+        <div id="chart1"></div>
+    </div> <!-- csbox -->
+</div> <!-- demobox -->
 
 <!-- Second Grid -->
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
@@ -86,17 +93,14 @@
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//d3js.org/d3-queue.v3.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="static/js/cschart.js"></script>
+    <script src="static/js/csbars.js"></script>
+    <script src="static/js/csheader.js"></script>
+    <script src="static/js/csdataprep.js"></script>
+    <script src="static/js/csdoge.js"></script>
 
 </body>
 </html>

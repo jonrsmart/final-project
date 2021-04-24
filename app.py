@@ -50,7 +50,8 @@ def home():
 
 @app.route("/bitcoin")
 def bitcoin():
-    return render_template("index.html")
+    updateBTC()
+    return render_template("btc.html")
 
 
 # @app.route("/ethereum")

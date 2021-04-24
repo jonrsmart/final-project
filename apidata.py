@@ -32,6 +32,9 @@ def updateBTC():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
+    btc_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    btc_csv.reset_index(inplace=True)
+    btc_csv.to_csv('static/updated_csv/btc_current.csv')
     # print(data.head())
     selected = data.loc[:results[0]]
     selected.reset_index(inplace=True)
@@ -89,6 +92,9 @@ def updateETH():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
+    eth_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    eth_csv.reset_index(inplace=True)
+    eth_csv.to_csv('static/updated_csv/eth_current.csv')
     # print(data.head())
     selected = data.loc[:results[0]]
     selected.reset_index(inplace=True)
