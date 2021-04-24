@@ -1,14 +1,13 @@
-from flask import Flask, json, url_for
-from flask import render_template
+from flask import Flask, json, url_for, request, render_template
 from flask_cors import CORS, cross_origin
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import func
+from sqlalchemy import func, create_engine
 from geojson import Point, MultiPoint
 import jinja2
-import json
+from json import dumps
 from pprint import pprint
 from apidata import updateBTC, updateETH, updateDOGE
-
+import csv
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -61,8 +60,7 @@ def bitcoin():
 @app.route("/dogecoin")
 def dogecoin():
     updateDOGE()
-    coins = Dogecoin.query.all()
-    return render_template("doge.html", coins=coins)
+    return render_template("doge.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

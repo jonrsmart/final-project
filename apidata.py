@@ -7,6 +7,9 @@ from scipy.stats import linregress
 from config import akey
 from alpha_vantage.cryptocurrencies import CryptoCurrencies
 import sqlite3
+import csv
+from sqlalchemy import create_engine
+from flask import make_response
 
 def updateBTC():
     conn = sqlite3.connect("data/crypto.db")
@@ -56,6 +59,9 @@ def updateDOGE():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
+    doge_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    doge_csv.reset_index(inplace=True)
+    doge_csv.to_csv('static/updated_csv/doge_current.csv')
     print(data.head())
     selected = data.loc[:results[0]]
     selected.reset_index(inplace=True)
