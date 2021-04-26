@@ -7,6 +7,7 @@ import jinja2
 from json import dumps
 from pprint import pprint
 from apidata import updateBTC, updateETH, updateDOGE
+from tanner_scripts import tanner_btc, tanner_eth, tanner_doge
 import csv
 
 app = Flask(__name__)
@@ -29,13 +30,13 @@ class Config(db.Model):
 class Ethereum(db.Model):
     __tablename__ = 'eth'
     __table_args__ = { 'extend_existing': True }
-    rowid = db.Column(db.Integer, primary_key=True) 
+    rowid = db.Column(db.Integer, primary_key=True)
 
 class Dogecoin(db.Model):
     __tablename__ = 'doge'
     __table_args__ = { 'extend_existing': True }
     rowid = db.Column(db.Integer, primary_key=True)
- 
+
 # Create an instance of Flask
 app = Flask(__name__)
 
@@ -47,21 +48,21 @@ def home():
 @app.route("/bitcoin")
 def bitcoin():
     updateBTC()
+    tanner_btc()
     return render_template("bitcoin.html")
 
 
 @app.route("/ethereum")
 def ethereum():
     updateETH()
+    tanner_eth()
     return render_template("ethereum.html")
 
 @app.route("/doge")
 def dogecoin():
     updateDOGE()
+    tanner_doge()
     return render_template("doge.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
