@@ -18,7 +18,7 @@
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="/bitcoin" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">BTC</a>
     <a href="/ethereum" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ETH</a>
     <a href="/doge" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">DOGE</a>
@@ -44,10 +44,10 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>About</h1>
-      <h5 class="w3-padding-32">Using machine learning, we have developed two different models that can determine if a certain crypto currency is a good investment. The first model will look at historical price data to decide wether a currency falls in to one of four buckets. The buckets are "Strong Buy", "Buy", "Hold" and "Weak Sell". The second model has the ability to predict future crytpo currency prices, ten days into the future.</h5>
+      <h1>Model 1</h1>
+      <h5 class="w3-padding-32">The first model identifies whether a cryptocurrency falls into one of 5 categories: "Strong Buy", "Weak Buy", "Hold", "Weak Sell", or "Liquidate" at any given time. These categories were determined using 7 of the 8 parameters outlined in the Medium article: "How to Find Stocks That Will Help You Quickly Get Rich Using Python", by Rahul Raj to determine whether a stock, or in our case a cryptocurrency, is gearing up to rapidly rise in price. (The eighth metric was only relavant to traditional stock markets so it was left out of our analysis.</h5>
 
-      <p class="w3-text-grey">Our models uses a few different metrics to be able to determine if a currency is a good investment. Our first model uses historical open and close prices, collected on a daily basis and the percentage change within the day..</p>
+      <p class="w3-text-grey"></p>
     </div>
 
     <div class="w3-third w3-center">
@@ -64,12 +64,10 @@
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Model 2</h1>
+      <h5 class="w3-padding-32">The second model attempts to use the past 30 days of closing prices to predict the price of each asset into the future 10 days.  For this model, historical pricing data was pulled from cryptocompare.com.  We used the article: "Predicting Prices of Bitcoin with Machine Learning", by Marco Santos to help construct the LSTM models we created that predict our assest prices. Although we were able to produce functional models/predictions, the models have not been optimized well enough to produce predictions we are confident in.</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey"></p>
     </div>
   </div>
 </div>
