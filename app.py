@@ -15,6 +15,7 @@ app = Flask(__name__)
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/crypto.db'
 # db = SQLAlchemy(app)
+#This is a test comment to push for changes
 
 # db.Model.metadata.reflect(db.engine)
 
