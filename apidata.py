@@ -32,14 +32,17 @@ def updateBTC():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
-    btc_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    data['Pct_Chg'] = (data['Close'] - data['Open'])/data['Open']
+    data.drop('Coin', axis=1,inplace=True)
+    btc_csv = data
     btc_csv.reset_index(inplace=True)
-    btc_csv.to_csv('static/updated_csv/btc_current.csv')
+    btc_csv.to_csv('static/updated_csv/btc_current.csv', index=False)
     # print(data.head())
     selected = data.loc[:results[0]]
-    selected.reset_index(inplace=True)
+    #selected.reset_index(inplace=True)
     # print(selected.head())
     selected.to_sql('btc', conn, if_exists='append', index=False)
+    con.close()
 
 def updateDOGE():
     conn = sqlite3.connect("data/crypto.db")
@@ -62,14 +65,18 @@ def updateDOGE():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
-    doge_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    data['Pct_Chg'] = (data['Close'] - data['Open'])/data['Open']
+    data.drop('Coin', axis=1, inplace=True)
+    #print(data.head())
+    doge_csv = data
     doge_csv.reset_index(inplace=True)
-    doge_csv.to_csv('static/updated_csv/doge_current.csv')
-    print(data.head())
+    doge_csv.to_csv('static/updated_csv/doge_current.csv', index=False)
+    #print(data.head())
     selected = data.loc[:results[0]]
-    selected.reset_index(inplace=True)
+    #selected.reset_index(inplace=True)
     print(selected.head())
     selected.to_sql('doge', conn, if_exists='append', index=False)
+    con.close()
 
 def updateETH():
     conn = sqlite3.connect("data/crypto.db")
@@ -92,11 +99,14 @@ def updateETH():
     data['52W_High'] = data['Close'].rolling('365D').max()
     data['52W_Low'] = data['Close'].rolling('365D').min()
     data['Volatility']=(data['High']-data['Low'])/data['Open']
-    eth_csv = data[['Open','High','Low','Close','Volume', 'Volatility']]
+    data['Pct_Chg'] = (data['Close'] - data['Open'])/data['Open']
+    data.drop('Coin', axis=1, inplace=True)
+    eth_csv = data
     eth_csv.reset_index(inplace=True)
-    eth_csv.to_csv('static/updated_csv/eth_current.csv')
+    eth_csv.to_csv('static/updated_csv/eth_current.csv', index=False)
     # print(data.head())
     selected = data.loc[:results[0]]
-    selected.reset_index(inplace=True)
+    #selected.reset_index(inplace=True)
     # print(selected.head())
     selected.to_sql('eth', conn, if_exists='append', index=False)
+    con.close()

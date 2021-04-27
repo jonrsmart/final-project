@@ -5,7 +5,7 @@ function genType(d) {
   d.Open       = +d.Open;
   d.Close      = +d.Close;
   d.Volume   = +d.Volume;
-  d.Volatility = +d.Volatility * 100;
+  d.Volatility = +d.Volatility;
   return d;
 }
 
