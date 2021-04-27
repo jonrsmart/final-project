@@ -65,7 +65,7 @@ def tanner_btc():
     X = X.reshape((X.shape[0], X.shape[1], n_features))
 
     #calling the pre-trained model
-    model = keras.models.load_model('models/btc_model.h5')
+    model = keras.models.load_model('static/models/btc_model.h5')
 
     # Predicting off of y because it contains the most recent dates
     yhat = model.predict(np.array(df.tail(n_per_in)).reshape(1, n_per_in, n_features)).tolist()[0]
@@ -147,7 +147,7 @@ def tanner_doge():
     X = X.reshape((X.shape[0], X.shape[1], n_features))
 
     #calling the pre-trained model
-    model = keras.models.load_model('models/doge_model.h5')
+    model = keras.models.load_model('static/models/doge_model.h5')
 
     # Predicting off of y because it contains the most recent dates
     yhat = model.predict(np.array(df.tail(n_per_in)).reshape(1, n_per_in, n_features)).tolist()[0]
@@ -229,7 +229,7 @@ def tanner_eth():
     X = X.reshape((X.shape[0], X.shape[1], n_features))
 
     #calling the pre-trained model
-    model = keras.models.load_model('models/eth_model.h5')
+    model = keras.models.load_model('static/models/eth_model.h5')
 
     # Predicting off of y because it contains the most recent dates
     yhat = model.predict(np.array(df.tail(n_per_in)).reshape(1, n_per_in, n_features)).tolist()[0]
